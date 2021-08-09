@@ -6,7 +6,7 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/13 10:46:45 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/08/09 16:53:30 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:44:37 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include <stdarg.h> 
-# include "../vanilla_libft/libft.h"
+# include <stdarg.h>
+# include "../vanilla_libft/libft_vanilla.h"
 
 typedef struct s_parse
 {

@@ -6,11 +6,11 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/10 12:59:48 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/05/27 09:56:04 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:35:44 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_vanilla.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

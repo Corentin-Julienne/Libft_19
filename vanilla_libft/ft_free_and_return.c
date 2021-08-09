@@ -6,11 +6,11 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 16:27:25 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/08/09 16:28:56 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:35:44 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_vanilla.h"
 
 char	*ft_free_and_return(char **str_to_free, char *rtn_value)
 {

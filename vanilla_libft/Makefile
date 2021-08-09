@@ -6,7 +6,7 @@
 #    By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/04/13 12:18:50 by cjulienn          #+#    #+#              #
-#    Updated: 2021/08/09 16:32:07 by cjulienn         ###   ########.fr        #
+#    Updated: 2021/08/09 18:12:04 by cjulienn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,7 +71,7 @@ CFLAGS = -Wall -Wextra -Werror -I.
 
 RM = rm -f
 
-NAME = libft.a
+NAME = vanillalibft.a
 	
 .c.o:
 	$(CC) $(CFLAGS) -c $< -o ${<:.c=.o}
@@ -93,4 +93,8 @@ re:		fclean $(NAME)
 bonus:	$(BONUS_OBJS)
 	ar -rcs $(NAME) $(BONUS_OBJS)
 
-.PHONY: all clean fclean re bonus
+lib:	$(NAME) clean
+
+lib_bonus:	bonus clean
+
+.PHONY: all clean fclean re bonus lib lib_bonus

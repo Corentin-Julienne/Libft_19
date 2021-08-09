@@ -6,11 +6,11 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/23 15:36:46 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/05/19 13:41:00 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:35:44 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_vanilla.h"
 
 int	ft_lstsize(t_list *lst)
 {

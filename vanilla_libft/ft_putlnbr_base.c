@@ -6,11 +6,11 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/16 15:35:43 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/08/06 15:27:29 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:35:44 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_vanilla.h"
 
 static void	ft_base_converter(unsigned long nb, char *base, unsigned long b_s)
 {

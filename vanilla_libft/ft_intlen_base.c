@@ -6,11 +6,11 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/16 15:37:50 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/07/23 13:37:17 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:35:44 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_vanilla.h"
 
 size_t	ft_intlen_base(unsigned long long num, size_t base)
 {

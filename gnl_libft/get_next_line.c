@@ -6,13 +6,13 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/19 13:28:45 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/08/09 16:47:26 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 17:59:01 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static char	*ft_output(ssize_t reader, char	**line, int iter)
+char	*ft_output(ssize_t reader, char	**line, int iter)
 {
 	char	*rtn;
 
@@ -37,7 +37,7 @@ static char	*ft_output(ssize_t reader, char	**line, int iter)
 		return (NULL);
 }
 
-static char	*ft_cut_rtn(const char *line)
+char	*ft_cut_rtn(const char *line)
 {
 	size_t	malloc_size;
 	size_t	i;
@@ -66,7 +66,7 @@ static char	*ft_cut_rtn(const char *line)
 	return (cutted_line);
 }
 
-static char	*ft_cut_line(ssize_t reader, char *line)
+char	*ft_cut_line(ssize_t reader, char *line)
 {
 	char	*cutted_stc;
 
@@ -91,7 +91,7 @@ static char	*ft_cut_line(ssize_t reader, char *line)
 	return (cutted_stc);
 }
 
-static char	*manage_errors(int fd)
+char	*manage_errors(int fd)
 {
 	char	*buffer;
 

@@ -6,12 +6,12 @@
 /*   By: cjulienn <cjulienn@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/30 13:23:50 by cjulienn          #+#    #+#             */
-/*   Updated: 2021/08/09 16:30:41 by cjulienn         ###   ########.fr       */
+/*   Updated: 2021/08/09 18:33:57 by cjulienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef LIBFT_VANILLA_H
+# define LIBFT_VANILLA_H
 
 # include <stdlib.h>
 # include <unistd.h>
